@@ -221,3 +221,101 @@ a {
 .illustration2 {
     padding-right: 100px;
 }
+
+
+/* PLAN SECTION STYLING */
+.planSection {
+    justify-content: center;
+    align-items: center;
+}
+
+.planText {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik';
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.planBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.includedBenefits {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    border-radius: 25px;
+    border: 2px solid #DDDDDD;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 610px;
+}
+
+.plans:hover {
+    border: 2px solid #F53838;
+}
+
+.h3Plan {
+    font-family: 'Rubik';
+    font-size: 18px;
+}
+
+.benefits {
+    display: flex;
+    font-family: 'Rubik';
+    font-size: 14px;
+}
+
+.freeLast {
+    padding-bottom: 85px;
+}
+
+.standardLast {
+    padding-bottom: 47px;
+}
+
+.h2Plan {
+    font-family: 'Rubik';
+    font-size: 25px;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-weight: bold;
+    font-size: 16px;
+    color: #F53855;
+    border-radius: 25px;
+    border: 2px solid #F53855;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.select:hover {
+    color: white;
+    background-color: #f8092d;
+    box-shadow: 0 0px 15px 0 rgba(245, 56, 56, 0.35);
+}
