@@ -512,3 +512,49 @@ a {
 }
 
 /* FOOTER SECTION STYLING */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 250px;
+    padding-top: 120px;
+    height: 220px;
+}
+
+.leftInfo {
+    font-family: 'Rubik';
+    font-weight: lighter;
+    max-width: 330px;
+}
+
+.trademark {
+    margin-top: 0px;
+}
+
+.rightInfo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0px;
+    gap: 60px;
+}
+
+.productInfo {
+    font-family: 'Rubik';
+    margin-top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+.footerTitle {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0px;
+}
