@@ -444,3 +444,71 @@ a {
 .customerFeedback {
     font-family: 'Rubik';
 }
+
+
+/* SUBSCRIBE SECTION STYLING */
+.subscribeBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.subsInfo {
+    gap: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1050px;
+    border-radius: 25px;
+    border: 2px solid #DDDDDD;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.callToAction {
+    flex-wrap: wrap;
+    font-family: 'Rubik';
+    max-width: 450px;
+}
+
+.subNow {
+    font-family: 'Rubik';
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.subDesc {
+    font-family: 'Rubik';
+    margin-top: 10px;
+}
+
+.subscribeButton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    background-color: #F53855;
+    box-shadow: 0 7px 15px 0 rgba(245, 56, 56, 0.35);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.subscribeButton:hover {
+    background-color: #f8092d;
+    box-shadow: 0 0px 15px 0 rgba(245, 56, 56, 0.35);
+}
+
+/* FOOTER SECTION STYLING */
