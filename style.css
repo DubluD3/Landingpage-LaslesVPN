@@ -110,7 +110,6 @@ a {
     border-radius: 20px;
     background-color: white;
     box-shadow: 0 14px 15px 0 rgba(13, 16, 37, 0.1);
-    
 }
 
 .users-div {
@@ -172,3 +171,43 @@ a {
     padding-right: 30px;
 }
 
+/* FEATURES SECTION STYLING */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.features-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.h1 {
+    font-family: 'Rubik';
+    font-weight: normal;
+    font-size: 34px;
+    max-width: 400px;
+}
+
+.featuresDescription {
+    font-family: 'Rubik';
+    max-width: 400px;
+    margin-top: 0;
+}
+
+.bullets {
+    display: flex;
+    font-family: 'Rubik';
+}
+
+.bulletImg {
+    padding-right: 10px;
+}
+
+.illustration2 {
+    padding-right: 100px;
+}
