@@ -319,3 +319,31 @@ a {
     background-color: #f8092d;
     box-shadow: 0 0px 15px 0 rgba(245, 56, 56, 0.35);
 }
+
+/* MAP SECTION STYLING */
+.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapTitle {
+    font-family: 'Rubik';
+    font-size: 35px;
+    padding-top: 120px;
+    margin-bottom: 0;
+    max-width: 380px;
+    text-align: center;
+}
+
+.mapDescription {
+    font-family: 'Rubik';
+    text-align: center;
+    max-width: 500px;
+    padding-bottom: 120px;
+}
+
+.mapPicture {
+    max-width: 1200px;
+}
