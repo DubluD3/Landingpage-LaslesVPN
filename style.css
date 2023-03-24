@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Rubik-Regular', sans-serif;
+    src: url(./fonts/Rubik-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik-Medium', sans-serif;
+    src: url(./fonts/Rubik-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik-Bold', sans-serif;
+    src: url(./fonts/Rubik-Bold.ttf) format('truetype');
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+}
+
+.header-list {
+    display: inline-block;
+    padding: 22px;
+    margin-left: 100px;
+}
+
+.headerMenu {
+    padding: 10px;
+    font-family: 'Rubik-Bold', sans-serif;
+}
