@@ -347,3 +347,13 @@ a {
 .mapPicture {
     max-width: 1200px;
 }
+
+/* SPONSOR SECTION STYLING */
+.sponsorBanner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    gap: 150px;
+}
