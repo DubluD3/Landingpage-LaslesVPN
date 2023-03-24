@@ -50,6 +50,12 @@ a {
     height: 150px;
 }
 
+.signUp:hover {
+    color: white;
+    background-color: #f8092d;
+    box-shadow: 0 0px 15px 0 rgba(245, 56, 56, 0.35);
+}
+
 /* HERO STYLING */
 .hero {
     display: flex;
@@ -85,6 +91,10 @@ a {
     padding-bottom: 8px;
     padding-left: 30px;
     padding-right: 30px;
+}
+.hero-button:hover {
+    background-color: #f8092d;
+    box-shadow: 0 0px 15px 0 rgba(245, 56, 56, 0.35);
 }
 
 .illustration-1 {
